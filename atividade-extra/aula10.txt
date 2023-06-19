@@ -1,0 +1,9 @@
+Quando criamos uma tela, ela tem um fundo e recursos que vão sendo colocados por cima, esses recursos podem ser textos,
+botões, imagens, as chamadas views e views group.
+Aprendemos diversas ferramentas para edição do design da tela, margem, fonte do texto, 
+alterar o tamanho de algum recurso da tela,
+orientação para onde a tela vai, se vai seguir o padrão do recurso pai ou seguir o próprio padrão.
+Formas diferentes que abre o teclado, normal, numerico, de senha (tudo digitado fica em *) entre outros diversos.
+As activity são as sequencias de atividades do aplicativo, puxando diferentes telas para cada função e dependendo
+da ação do usuário segue caminhos diferentes.
+Uma activity para quando abre o aplicativo, outra para enquanto carrega o aplicativo, tela inicial e assim por diante.

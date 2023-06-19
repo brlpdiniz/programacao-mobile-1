@@ -10,7 +10,6 @@ git commit -m "Exemplo: chore: Organização de pastas"
 
 git push -u origin main
 
-# 
 # git commit -m 
 *feat
 
