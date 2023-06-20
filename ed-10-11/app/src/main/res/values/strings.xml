@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PokeApi</string>
+    <!-- mis -->
+    <string name="pokemon_image">Pokemon</string>
+    <string name="type">Tipo:</string>
+    <string name="hp">Pv:</string>
+    <string name="speed">Velocidade:</string>
+    <string name="attack">Ataque:</string>
+    <string name="defense">Defesa:</string>
+    <string name="special_attack">Ataque Especial:</string>
+    <string name="special_defense">Defesa Especial:</string>
+    <string name="height">Altura:</string>
+    <string name="weight">Peso:</string>
+    <string name="metro"> %sm</string>
+    <string name="kilo"> %skg</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>     <!--Divisão de fundo/pagina-->
+
+</resources>
