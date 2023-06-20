@@ -5,25 +5,19 @@
         "email": "joao@email.com",
         "idade": 34,
         "telefone": "(41) 1234-1234"
-    }
-]
-[
+    }, 
     {
         "nomeSobrenome": "Pedro Alcantara",
         "curso": "Biologia",
         "periodo": 5,
         "materias": ["Botânica", "Genética", "Química"]
-    }
-]
-[
+    },
     {
         "nomeSobrenome": "Arthur Vanderlay",
         "curso": "Biologia",
         "periodo": 5,
         "materias": ["Botânica", "Genética", "Química"]
-    }
-]
-[
+    },
     {
         "titulo": "Titanic",
         "diretor": ["James Cameron"],
@@ -32,11 +26,11 @@
             {
                 "data": "05/07",
                 "horario": "13h"
-            }
+            },
             {
                 "data": "08/07",
                 "horario": "13h"
-            }
+            },
             {
                 "data": "01/07",
                 "horario": "22h"
