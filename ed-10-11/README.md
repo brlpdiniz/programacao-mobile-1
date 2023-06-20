@@ -16,4 +16,6 @@
 </p>
 <h3><a href="" target="_blanck">Demonstração Aqui...</a></h3> 
 <hr>
-![Logo PokeAPI](https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png "PokeAPI")
+<div align="center">
+    <img src\="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"/>
+</div>
