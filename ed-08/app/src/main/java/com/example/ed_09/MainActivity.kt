@@ -1,9 +1,9 @@
-package com.example.ed_09
+package com.example.ed_08
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.ed_09.databinding.ActivityMainBinding
+import com.example.ed_08.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

@@ -1,10 +1,10 @@
-package com.example.ed_09
+package com.example.ed_08
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.ed_09.databinding.ActivityMainBinding
-import com.example.ed_09.databinding.ActivitySegundaTelaBinding
+import com.example.ed_08.databinding.ActivityMainBinding
+import com.example.ed_08.databinding.ActivitySegundaTelaBinding
 
 class SegundaTela : AppCompatActivity() {
 
