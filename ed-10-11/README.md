@@ -5,7 +5,6 @@
 <br>
 <p>API utilizada <a href="https://pokeapi.co/">PokéApi</a>.</p>
 <p>Tecnologias Utilizadas:<br>
-- HTML<br>
 - Retrofit2<br>
 - GSON<br>
 - ViewModel<br>
@@ -17,5 +16,5 @@
 <h3><a href="" target="_blanck">Demonstração Aqui...</a></h3> 
 <hr>
 <div align="center">
-    <img src\="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"/>
+<img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"/>
 </div>
