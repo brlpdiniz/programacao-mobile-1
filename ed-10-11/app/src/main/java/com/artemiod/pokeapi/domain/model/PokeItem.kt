@@ -17,7 +17,7 @@ fun PokeModel.toDomain(): PokeItem {
     val arrayUrl = url.split("/")
     val id = arrayUrl[arrayUrl.size - 2].toInt()
     val name = name.replaceFirstChar {
-        // cada nombre con Mayuscula
+        // cada nome maiúsculo
         if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString()
     }
     val img = "$URL_RAW$id.png"

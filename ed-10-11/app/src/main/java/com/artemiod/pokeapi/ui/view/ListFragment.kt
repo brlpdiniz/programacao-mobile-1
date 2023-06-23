@@ -37,7 +37,7 @@ class ListFragment : Fragment() {
         listener = try {
             context as SelectedListener
         } catch (e: ClassCastException) {
-            throw ClassCastException("$context debe implementar el listener")
+            throw ClassCastException("$context implant o listener")
         }
     }
 
@@ -52,7 +52,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        // val viewModel2 = ViewModelProvider(this)[PokeViewModel::class.java]
+
         adapter = ItemAdapter()
         recyclerView = binding.recyclerViewPoke
         recyclerView.adapter = adapter
@@ -92,8 +92,7 @@ class ListFragment : Fragment() {
 
     private fun onClickItem() {
         adapter.onItemClickListener = { poke ->
-            //Toast.makeText(requireContext(), poke.name, Toast.LENGTH_LONG).show()
-            //test(poke.id)
+
             listener.onSelected(poke.id)
         }
     }

@@ -7,6 +7,7 @@
     android:background="@color/red_300"
     tools:context=".ui.view.SplashActivity">
 
+    <!-- Animação da bola no início-->
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animationView"
         android:layout_width="100dp"

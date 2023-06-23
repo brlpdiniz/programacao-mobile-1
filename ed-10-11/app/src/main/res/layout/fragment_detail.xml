@@ -18,6 +18,7 @@
         android:indeterminateTint="#493D3D"
         />
 
+    <!--imagem offline com o dinossauro-->
     <ImageView
         android:id="@+id/statusOffline"
         android:layout_width="match_parent"
@@ -31,6 +32,7 @@
         android:layout_height="280dp"
         android:background="@color/text_type">
 
+        <!-- Exemplo de pokemon na página (buba)-->
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/collapsingToolbar"
             android:layout_width="match_parent"

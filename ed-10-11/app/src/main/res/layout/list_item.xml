@@ -48,7 +48,7 @@
                 android:textSize="@dimen/text_large"
                 android:layout_marginStart="@dimen/space_small"
                 android:layout_marginBottom="@dimen/space_small"
-                tools:text="Charmander" />
+                tools:text="Charmilion" />
 
         </LinearLayout>
 
