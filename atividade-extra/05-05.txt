@@ -1,0 +1,21 @@
+Aluno: Bruno Leandro Diniz
+Aula: 05/05/2023
+
+Melhores Práticas:
+Estruturação do código, Comentários, Utilização de recursos, Responsividade, Testes, Segurança e Documentação.
+
+Visão:
+A Visão é uma classe essencial no Android que representa um elemento da interface do usuário. Ela é utilizada para exibir e interagir com elementos gráficos na tela do dispositivo.
+
+A classe View serve como base para muitas outras classes de interface do usuário no Android, como Botão, TextView, ImageView e EditText. Cada uma dessas classes herda da classe View e acrescenta suas próprias funcionalidades e propriedades.
+
+A View pode ser configurada com várias propriedades, como tamanho, posição, cor e transparência. Além disso, a View também pode responder a eventos de entrada do usuário, como toques, cliques e gestos.
+
+Componentes e Atributos:
+
+ScrollView: é uma classe que permite rolar o conteúdo que é maior do que a tela do dispositivo. Se você tiver um layout com muitos elementos que não cabem na tela, pode colocá-los dentro de um ScrollView e permitir que o usuário role para visualizar o conteúdo oculto.
+CardView: é uma classe que representa um cartão no Material Design e é usado para exibir informações de forma organizada e clara em um layout. O CardView pode conter imagens, texto e outros elementos da interface do usuário.
+Orientação: é utilizada para definir se o aplicativo será exibido em modo horizontal ou vertical.
+Componentes obrigatórios
+layout_width (largura do layout)
+layout_height (altura do layout)

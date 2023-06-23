@@ -1,0 +1,10 @@
+Aluno: Bruno Leandro Diniz
+Aula: 16/06/2023
+
+API: Necessita da conexão com a internet para acessar os dados. Possui suporte para grandes volumes de dados e consome pouco espaço no dispositivo. As informações são obtidas de um servidor remoto através de requisições.
+
+Área de armazenamento privada: Cada aplicativo possui sua própria área de armazenamento onde os arquivos são guardados. Eles podem optar por salvar na área de armazenamento público, se desejarem. Os arquivos locais podem estar em formatos como txt (csv, json, xml) ou dat (binário). O acesso aos arquivos locais é mais rápido, sem a necessidade de conexão com a internet, porém ocupam mais espaço em disco e memória. É mais fácil realizar a leitura, relacionamento e atualização dos dados.
+
+SQLite: É um banco de dados incorporado que suporta grandes volumes de dados. Ele oferece facilidade na localização de dados e nas operações de inserção, atualização e exclusão. No entanto, a leitura pode ser mais lenta e o relacionamento entre tabelas pode ser mais complexo. É necessário escrever mais código para utilizar o SQLite.
+
+Shared Preferences: É uma forma de armazenamento para gravar pares de chave-valor. Pode ser usado para armazenar configurações locais, preferências do usuário ou como cache. Quando o aplicativo é reinstalado, as informações armazenadas nas shared preferences são recriadas. É fácil de usar e não requer configuração adicional.

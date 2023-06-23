@@ -1,0 +1,32 @@
+Aluno: Bruno Leandro Diniz
+Aula: 12/05/2023
+
+Cadastro de atividades no AndroidManifest: É fundamental registrar todas as atividades do aplicativo no arquivo AndroidManifest.xml para assegurar o correto funcionamento do aplicativo em dispositivos móveis.
+
+Padrão de nomenclatura de recursos: Recomenda-se utilizar o título da tela como padrão de nome para os recursos do aplicativo, facilitando a organização e localização dos elementos visuais.
+
+Personalização de botões: A alteração da cor de um botão pode ser realizada através do atributo backgroundtint, possibilitando a personalização da aparência do botão de acordo com as necessidades do aplicativo.
+
+Identificação e solução de erros: Ao surgir uma linha amarela durante o desenvolvimento, o atalho Alt+Enter pode ser utilizado para visualizar detalhes sobre o erro ocorrido, auxiliando na sua identificação e resolução.
+
+Utilização do databinding: Em determinadas situações, é necessário utilizar o databinding para estabelecer uma conexão entre a interface do usuário e a lógica de negócio do aplicativo, mantendo as informações sincronizadas.
+
+Configuração do databinding: Para utilizar o databinding, é preciso habilitá-lo no arquivo Gradle e realizar modificações nos arquivos de layout, substituindo a chamada de SetContentView(). Essas configurações devem ser feitas no arquivo BuildGrade.
+
+Lateinit: O tipo Lateinit é utilizado para declarar variáveis que nunca serão nulas, fornecendo uma indicação ao compilador para permitir o acesso direto às variáveis sem a necessidade de verificação de nulidade.
+
+Tratamento de eventos: Para lidar com eventos, como cliques em botões, é possível utilizar o componente setOnClickListener(). Os eventos podem ser tratados tanto por meio de funções lambda, adequadas para eventos não reutilizáveis, quanto por métodos, mais apropriados para eventos curtos que podem ser reutilizados em diferentes contextos.
+
+Outros:
+
+É essencial cadastrar todas as atividades no arquivo AndroidManifest.
+O padrão de nome para os recursos deve ser o mesmo que o título da tela.
+Para alterar a cor de um botão, utiliza-se o atributo backgroundtint.
+Ao surgir uma linha amarela, utilize Alt+Enter para visualizar o erro que está ocorrendo.
+O uso do databinding é necessário para algumas bibliotecas.
+Para configurar o databinding, é preciso habilitá-lo no arquivo Gradle, modificar os arquivos de layout e substituir a chamada de SetContentView(). Isso deve ser feito no arquivo BuildGrade.
+O databinding é uma técnica que mantém em sincronia duas fontes de dados/informações, estabelecendo uma conexão entre a interface do usuário da aplicação e a lógica de negócio.
+Utilize o tipo Lateinit para declarar variáveis que nunca serão nulas.
+O componente setOnClickListener() é utilizado para tratar eventos, que são disparados pelos componentes após a interação do usuário.
+Utilize funções lambda para eventos que não precisam ser reutilizados.
+Utilize métodos para eventos curtos que podem ser reutilizados.
